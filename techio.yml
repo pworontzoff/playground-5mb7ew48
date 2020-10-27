@@ -1,4 +1,18 @@
-title: Simple C Template
+title: Labo 10
 plan:
-- title: C Snippet
-  statement: statement.md
+- title: Introduction
+  statement: markdowns/introduction.md
+- title: Exercice 1
+  statement: markdowns/ex1.md
+- title: Exercice 2
+  statement: markdowns/ex2.md
+- title: Exercice 3
+  statement: markdowns/ex3.md
+- title: Exercice 4
+  statement: markdowns/ex4.md  
+projects:
+  swap:
+    root: /swap
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
