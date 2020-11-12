@@ -1,15 +1,23 @@
-title: Les pointeurs
+title: Les vecteurs & pointeurs
 plan:
-- title: Introduction
-  statement: markdowns/introduction.md
-- title: Exercice 1
+- title: Exercice 1 (vecteurs)
   statement: markdowns/ex1.md
-- title: Exercice 2
+- title: Exercice 2 (vecteurs)
   statement: markdowns/ex2.md
-- title: Exercice 3
+- title: Exercice 3 (vecteurs)
   statement: markdowns/ex3.md
-- title: Exercice 4
+- title: Exercice 4 (vecteurs)
   statement: markdowns/ex4.md  
+- title: Introduction aux pointeurs
+  statement: markdowns/introduction.md
+- title: Exercice 5 (pointeurs)
+  statement: markdowns/ex5.md
+- title: Exercice 6 (pointeurs)
+  statement: markdowns/ex6.md
+- title: Exercice 7 (vecteurs)
+  statement: markdowns/ex7.md
+- title: Exercice 8 (vecteurs et pointeurs) 
+  statement: markdowns/ex8.md  
 projects:
   swap:
     root: /swap
