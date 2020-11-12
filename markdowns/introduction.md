@@ -1,4 +1,4 @@
-# Introduction
+# Introduction aux pointeurs
 Pour réaliser les exercices suivants il est utile d'avoir compris la théorie sur les pointeurs. Les pointeurs constituent une notion essentielle du langage C, mais néanmoins un peu complexe au début. Il faut prendre le temps de bien comprendre comment ils fonctionnent car beaucoup d'autres notions sont basées dessus.
 
 ## Rappels : 
