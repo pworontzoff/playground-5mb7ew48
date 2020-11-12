@@ -1,6 +1,6 @@
-# Exercice 5
+# Exercice 8 (vecteurs et pointeurs)
 
-Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès(lecture) sur les vecteurs.
+Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès(lecture) sur les vecteurs de structures (via pointeurs).
 
 ## Données et structures fournies
 
