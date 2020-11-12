@@ -7,4 +7,4 @@ Vous veillez à
 + appeler dans le main la fonction qui permet d'initialiser("remplir") la variable
 + afficher le contenu de la variable dans le main après l'appel à la fonction d'initialisation du point précédent.
 
-NB: l'opération ´.´ d'accès aux champs d'une structure est prioriatire à l'opération ´*´ 
+NB: l'opération `.` d'accès aux champs d'une structure est prioriatire à l'opération `*` 
