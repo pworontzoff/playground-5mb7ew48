@@ -1,4 +1,4 @@
-# Exercice 1
+# Exercice 5 (les pointeurs)
 
 L'exercice consiste à rédiger une fonction permettant d'échanger les valeurs de 2 variables de type entier. 
 L'exercice sera résolu et testé automatiquement dans l'interface ci-dessous.
