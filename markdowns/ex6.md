@@ -1,4 +1,4 @@
-# Exercice 6 (les pointeurs)
+# Exercice 6 (pointeurs)
 
 Ecrire une fonction permettant de remplir une structure DMS (degrees minutes seconds) de coordonnées géographiques.
 Vous veillez à 
