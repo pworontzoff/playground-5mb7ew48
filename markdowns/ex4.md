@@ -29,3 +29,4 @@ Sur ce vecteur, implémentez les deux  fonctionnalités dans le main:
 2. demander à l'utilisateur sa position ainsi qu'une distance X(en km). Afficher ensuite les points du vecteur se trouvant à une distance
 inférieure à X de la position de l'utilisateur.
 
+NB: Le tableau de structures DEA devra être passé par adresse à ces deux fonctions.
