@@ -14,4 +14,4 @@ Voici les 4 nombres aleatoires entre 0 et 10 (compris) avec leurs frequences :
 4) 1 (frequence 1).
 ```
 
-NB : Il est permis déclarer et d'utiliser un deuxième vecteur dans sa solution.
+NB : Il est permis de déclarer et d'utiliser un deuxième vecteur dans sa solution.
