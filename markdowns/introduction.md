@@ -2,10 +2,10 @@
 Pour réaliser les exercices suivants il est utile d'avoir compris la théorie sur les pointeurs. Les pointeurs constituent une notion essentielle du langage C, mais néanmoins un peu complexe au début. Il faut prendre le temps de bien comprendre comment ils fonctionnent car beaucoup d'autres notions sont basées dessus.
 
 ## Rappels : 
-1. Chaque variable est stockée à une adresse précise en mémoire.
-1. Les pointeurs sont semblables aux variables, à ceci près qu'au lieu de stocker un nombre ils stockent l'adresse à laquelle se trouve une variable en mémoire.
-1. Si on place un symbole `&` devant un nom de variable, on obtient son adresse au lieu de sa valeur (ex. : `&age`).
-1. Si on place un symbole `*` devant un nom de pointeur, on obtient la valeur de la variable stockée à l'adresse indiquée par le pointeur.
+1. Chaque variable est stockée à une adresse précise en mémoire (en quelque sorte, son numéro d'ordre).
+1. Un pointeur est semblable à une variable stockant un nombre, à ceci près que le nombre stocké est une adresse à laquelle se trouve une variable en mémoire.
+1. Un symbole `&` devant un nom de variable (ex. : `&age`) désigne son adresse au lieu de sa valeur.
+1. Un symbole `*` devant un nom de pointeur désigne la variable stockée à l'adresse indiquée par le pointeur.
 
 ## Exemple 1
 
