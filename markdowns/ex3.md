@@ -18,6 +18,6 @@ NB :
 
 1. Il est permis de déclarer et d'utiliser un deuxième vecteur dans sa solution.
 1. Pour cet exercice, on travaille à l’aide d’un vecteur d’entiers (va, v, vMv …) de taille 100 et d’un
-entier n dont l’utilisateur choisit la valeur (< 100). L’entier n donnant la taille (utile) du vecteur.
+entier n dont l’utilisateur choisit la valeur (<= 100). L’entier n donnant la taille (utile) du vecteur.
 
 ! On devra prendre soin de définir 100 à l’aide d’un #define.
