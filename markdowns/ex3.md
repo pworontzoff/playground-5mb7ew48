@@ -14,4 +14,10 @@ Voici les 4 nombres aleatoires entre 0 et 10 (compris) avec leurs frequences :
 4) 1 (frequence 1).
 ```
 
-NB : Il est permis de déclarer et d'utiliser un deuxième vecteur dans sa solution.
+NB :
+
+1 Il est permis de déclarer et d'utiliser un deuxième vecteur dans sa solution.
+1 Pour cet exercices, on travaille à l’aide d’un vecteur d’entiers (va, v, vMv …) de taille 100 et d’un
+entier n dont l’utilisateur choisit la valeur (< 100). L’entier n donnant la taille (utile) du vecteur.
+
+! On devra prendre soin de définir 100 à l’aide d’un #define.
