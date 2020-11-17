@@ -5,7 +5,7 @@
   + `k` vaut -1 si tous les éléments de va sont égaux à 0 
   + `k` vaut l’indice du dernier (de gauche à droite) élément de va différent de 0 (donc 0<=k<=n–1) 
 
-NB : Pour cet exercices, on travaille à l’aide d’un vecteur d’entiers (va, v, vMv …) de taille 100 et d’un
-entier n dont l’utilisateur choisit la valeur (< 100). L’entier n donnant la taille (utile) du vecteur.
+NB : Pour cet exercice, on travaille à l’aide d’un vecteur d’entiers (va, v, vMv …) de taille 100 et d’un
+entier n dont l’utilisateur choisit la valeur (<= 100). L’entier n donnant la taille (utile) du vecteur.
 
 ! On devra prendre soin de définir 100 à l’aide d’un #define.
