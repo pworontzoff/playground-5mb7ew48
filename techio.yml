@@ -14,7 +14,7 @@ plan:
   statement: markdowns/ex5.md
 - title: Exercice 6 (pointeurs)
   statement: markdowns/ex6.md
-- title: Exercice 7 (vecteurs)
+- title: Exercice 7 (vecteurs et pointeurs)
   statement: markdowns/ex7.md
 - title: Exercice 8 (vecteurs et pointeurs)
   statement: markdowns/ex8.md
