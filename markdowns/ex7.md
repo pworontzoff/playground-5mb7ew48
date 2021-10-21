@@ -16,6 +16,6 @@ void main()
 ```
 
 
-![Etape du tour de France](images/etape_tour_de_france.png)
+![Etape du tour de France](images/etape_tour_de_france.jpg)
 
 NB : Attention : les appellations "cols" dans les noms des étapes ci-dessus ne sont pas liées à l'exercice.
