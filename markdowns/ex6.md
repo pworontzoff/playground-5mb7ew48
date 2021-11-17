@@ -1,5 +1,7 @@
 # Exercice 6 (pointeurs)
 
+Cet exercice se base sur le code écrit dans la solution de l'exercice 4 de la série sur les alternatives et structures (https://tech.io/playgrounds/55382/3---les-alternatives-et-les-structures/exercice-4-sur-9).
+
 Ecrire une fonction permettant de remplir une structure DMS (degrees minutes seconds) de coordonnées géographiques.
 Vous veillez à 
 + déclarer une structure DMS
