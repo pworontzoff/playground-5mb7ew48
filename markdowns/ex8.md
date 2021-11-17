@@ -2,6 +2,9 @@
 
 Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès(lecture) sur les vecteurs de structures (via pointeurs).
 
+Cet exercice se base sur le code écrit dans la solution de l'exercice 4 de la série sur les alternatives et structures (https://tech.io/playgrounds/55382/3---les-alternatives-et-les-structures/exercice-4-sur-9) ainsi que sur le code écrit dans l'exercice 6 de cette série (vecteurs et pointeurs) : .
+
+
 ## Données et structures fournies
 
 ```c
