@@ -1,7 +1,7 @@
 # Exercice 6 (pointeurs)
 
 Ecrire une fonction permettant de remplir une variable structurée de type `struct DMS` (avec 3 champs de type int nommés `degrees`, `minutes` et `seconds`) de coordonnées géographiques (une latitude ou une longitude exprimée en degrés, minutes et secondes).
-Vous veillez à 
+Vous veillerez à 
 + déclarer une structure DMS
 + écrire un main dans lequel vous déclarez une variable de type DMS 
 + appeler dans le main la fonction qui permet d'initialiser("remplir") la variable
