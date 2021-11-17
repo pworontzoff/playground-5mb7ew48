@@ -10,8 +10,8 @@ Cet exercice se base sur des coordonnées terrestres (latitudes et longitudes) d
 ```c
 //Structures utilisées
 struct coordonnee_terrestre {
-    float latitude;
-    float longitude;
+    float latitude; // en degrés décimaux
+    float longitude; // en degrés décimaux
 };
 
 struct lieu {
