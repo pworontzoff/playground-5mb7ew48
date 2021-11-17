@@ -25,8 +25,8 @@ struct lieu DEA[11] = {{"HEPL Seraing",{50.610991,5.510627}},{"Pizzeria da Pepe"
 Déclarer un vecteur de coordonnées géographiques et l'initialiser en "hardcodant" son contenu.
 Sur ce vecteur, implémentez les deux  fonctionnalités dans le main:
 
-1. demander à l'utilisateur d'encoder un point donné et calculer la distance par rapport à ce point pour chaque entrée du vecteur
-2. demander à l'utilisateur sa position ainsi qu'une distance X(en km). Afficher ensuite les points du vecteur se trouvant à une distance
+1. demander à l'utilisateur d'encoder sa position (un point donné) et calculer la distance par rapport à ce point pour chaque entrée du vecteur
+2. demander à l'utilisateur sa position (un point donné) ainsi qu'une distance X (en km). Afficher ensuite les points du vecteur se trouvant à une distance
 inférieure à X de la position de l'utilisateur.
 
 NB: Le tableau de structures DEA devra être passé par adresse à ces deux fonctions.
