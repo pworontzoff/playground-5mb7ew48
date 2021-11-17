@@ -1,6 +1,6 @@
 # Exercice 8 (vecteurs et pointeurs)
 
-Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès(lecture) sur les vecteurs de structures (via pointeurs).
+Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès (lecture) sur les vecteurs de structures (via pointeurs).
 
 Cet exercice se base sur des coordonnées terrestres (latitudes et longitudes) données en degrés décimaux (ex: 50.610991) et les calculs de distances peuvent se résoudre comme dans l'exercice 4 de la série "3 - Les alternatives et les structures" : https://tech.io/playgrounds/55382/3---les-alternatives-et-les-structures/exercice-4-sur-9
 
