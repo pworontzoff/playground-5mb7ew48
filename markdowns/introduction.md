@@ -139,6 +139,6 @@ int main() {
 - [ ] La variable p dans f() n'a aucun lien avec la variable a dans le main().
 - [x] La variable p dans f() est une copie de la valeur de la variable a dans le main().
 - [x] Les variables a dans le main(), a dans g(p) et p dans f() sont toutes dans des contextes différents.
-# Quizz
+# Quizz (facultatif)
 
 Afin de tester votre compréhension de la matière, complèter [ce questionnaire](https://goo.gl/forms/C3WkjJmB18vOww2C3)
