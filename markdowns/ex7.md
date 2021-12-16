@@ -13,10 +13,14 @@ Un "col" se définit par un point plus bas entre 2 points plus hauts (donc, de g
 ![illustration wikipedia d'un col de montagne](images/col.png)
 
 ```c
+// ...
+
 void main()
 {
 	int etape[7]={538,330,928,597,234,1205,201}; 
-	// à compléter
+	// ...
 }
+
+// ...
 ```
 
