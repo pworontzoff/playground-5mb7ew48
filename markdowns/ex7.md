@@ -4,7 +4,7 @@ Différentes altitudes d'une étape du tour de France sont mémorisées dans un 
 
 ![Etape du tour de France](images/etape_tour_de_france.jpg)
 
-L'exercice consiste à écrire un programme qui calcule le nombre de cols dans l'étape.
+L'exercice consiste à écrire un programme qui calcule le nombre de cols dans l'étape via une fonction qui reçoit l'adresse du vecteur et le nombre d'étapes en paramètres et qui retourne le nombre de cols.
 
 NB : Attention : les appellations "cols" dans les noms des étapes ci-dessus ne sont pas liées à l'exercice.
 
