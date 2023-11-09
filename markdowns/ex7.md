@@ -1,4 +1,4 @@
-# Exercice 7 (vecteurs et pointeurs)
+# Exercice 7 (vecteurs et pointeurs explicites) (facultatif)
 
 Différentes altitudes d'une étape du tour de France sont mémorisées dans un vecteur.
 
