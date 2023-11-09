@@ -1,4 +1,4 @@
-# Exercice 2 (vecteurs) : RECHERCHE EN TABLE DU DERNIER ÉLÉMENT NON NUL
+# Exercice 2 (vecteurs) : RECHERCHE EN TABLE DU DERNIER ÉLÉMENT NON NUL (facultatif)
 
 + Lire un nombre entier `n`, lire les n éléments d’un vecteur d’entiers `va`
 + Déterminer `k` tel que :
