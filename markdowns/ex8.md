@@ -1,4 +1,4 @@
-# Exercice 8 (vecteurs et pointeurs)
+# Exercice 8 (vecteurs et pointeurs explicites) (facultatif)
 
 Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès (lecture) sur les vecteurs de structures (via pointeurs). La solution à l'exercice 6 précédent dans cette série (https://tech.io/playgrounds/55695/5---les-vecteurs-pointeurs/exercice-6-pointeurs) nous donne déjà une aide précieuse sur les syntaxes à utiliser pour l'accès aux champs de structures par pointzeurs.
 
