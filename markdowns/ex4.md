@@ -6,4 +6,4 @@
   + Remplir chacune des `n` valeur de `vM` avec une des `n` valeur de `v` prise au hasard. A chaque itération, on prend un indice au hasard (entre 0 et n-1 inclus). Si l'indice est inédit : mettre la valeur -1 à cette case, sinon parcourir le reste du vecteur (et éventuellement le début) jusqu'à trouver la première valeur différente de -1 
   + Afficher `vM`
 
-NB: à faire sans fonctions !
+NB: Chaque point ci-dessus est à faire au moyen d'un appel de fonction !
