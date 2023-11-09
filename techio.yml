@@ -6,7 +6,7 @@ plan:
   statement: markdowns/ex2.md
 - title: Exercice 3 (vecteurs)
   statement: markdowns/ex3.md
-- title: Exercice 4 (vecteurs)
+- title: Exercice 4 (vecteurs) (facultatif)
   statement: markdowns/ex4.md
 - title: Introduction aux pointeurs
   statement: markdowns/introduction.md
