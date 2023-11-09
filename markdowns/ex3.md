@@ -19,3 +19,5 @@ NB :
 entier `n` dont l’utilisateur choisit la valeur (<= 100). L’entier `n` donnant la taille (utile) du vecteur.
 
 ! On devra prendre soin de définir 100 à l’aide d’un #define.
+
+! On devra réaliser cet exercice avec une fonction qui reçoit le vecteur initialisé en paramètre.
