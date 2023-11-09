@@ -6,7 +6,7 @@ plan:
   statement: markdowns/ex2.md
 - title: Exercice 3 (vecteurs)
   statement: markdowns/ex3.md
-- title: Exercice 4 (vecteurs) (facultatif)
+- title: Exercice 4 (vecteurs)
   statement: markdowns/ex4.md
 - title: Introduction aux pointeurs
   statement: markdowns/introduction.md
@@ -14,9 +14,9 @@ plan:
   statement: markdowns/ex5.md
 - title: Exercice 6 (pointeurs)
   statement: markdowns/ex6.md
-- title: Exercice 7 (vecteurs et pointeurs)
+- title: Exercice 7 (vecteurs et pointeurs explicites) (facultatif)
   statement: markdowns/ex7.md
-- title: Exercice 8 (vecteurs et pointeurs)
+- title: Exercice 8 (vecteurs et pointeurs explicites) (facultatif)
   statement: markdowns/ex8.md
 projects:
   swap:
