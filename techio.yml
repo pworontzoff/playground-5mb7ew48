@@ -2,7 +2,7 @@ title: 5 - Les vecteurs & pointeurs
 plan:
 - title: Exercice 1 (vecteurs)
   statement: markdowns/ex1.md
-- title: Exercice 2 (vecteurs)
+- title: Exercice 2 (vecteurs) (facultatif)
   statement: markdowns/ex2.md
 - title: Exercice 3 (vecteurs)
   statement: markdowns/ex3.md
