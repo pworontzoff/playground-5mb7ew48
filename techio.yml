@@ -1,5 +1,7 @@
 title: 5 - Les vecteurs & pointeurs
 plan:
+- title: Introduction
+  statement: markdowns/introduction.md
 - title: Exercice 1 (vecteurs)
   statement: markdowns/ex1.md
 - title: Exercice 2 (vecteurs) (facultatif)
@@ -9,7 +11,7 @@ plan:
 - title: Exercice 4 (vecteurs)
   statement: markdowns/ex4.md
 - title: Introduction aux pointeurs
-  statement: markdowns/introduction.md
+  statement: markdowns/introduction_ptr.md
 - title: Exercice 5 (pointeurs)
   statement: markdowns/ex5.md
 - title: Exercice 6 (pointeurs)
