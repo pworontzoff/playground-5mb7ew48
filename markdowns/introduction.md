@@ -1,144 +1,34 @@
-# Introduction aux pointeurs
-Pour réaliser les exercices suivants il est utile d'avoir compris la théorie sur les pointeurs. Les pointeurs constituent une notion essentielle du langage C, mais néanmoins un peu complexe au début. Il faut prendre le temps de bien comprendre comment ils fonctionnent car beaucoup d'autres notions sont basées dessus.
+# Introduction
 
-## Rappels : 
-1. Chaque variable est stockée à une adresse précise en mémoire (en quelque sorte, son numéro d'ordre).
-1. Un pointeur est semblable à une variable stockant un nombre, à ceci près que le nombre stocké est une adresse à laquelle se trouve une variable en mémoire.
-1. Un symbole `&` devant un nom de variable (ex. : `&age`) désigne son adresse au lieu de sa valeur.
-1. Un symbole `*` devant un nom de pointeur désigne la variable stockée à l'adresse indiquée par le pointeur.
+Les exercices de cette séance portent :
++ D'abord sur les vecteurs manipulés par des fonctions. Nous utiliserons une notation particulière du C qui permet de travailler sur les vecteurs (les consulter, mais surtout les modifier) dans des fonctions facilement. Cela permet de cacher le fait que des vecteurs passés en paramètres de fonctions ne sont pas des copies de ces vecteurs. Ce qui est passé en paramètre de la fonction est en fait un pointeur vers la première cellule du vecteur&nbsp;;
++ Ensuite, on revient sur la notion de pointeurs qui reste essentielle en C.
++ Enfin, facultativement, 2 énoncés permettent d'utiliser explicitement les pointeurs pour travailler sur les vecteurs (les consulter, mais surtout les modifier) dans des fonctions.
 
-## Exemple 1
+Pour réaliser ces exercices, vous veillerez également à employer les techniques vues lors des précédentes séances.
 
-Essayer le code ci-dessous.
+Sauf si l'énoncé permet d'encoder directement du code, cette série d'exercice est à résoudre avec Visual Studio.
 
-**Note** : `%p` permet d'afficher une adresse.
+## Pour rappel
+Visual Studio est disponible gratuitement (https://ecolevirtuelle.provincedeliege.be/ctrl/ctrl_gestion.openDocument?p_idNode=1177603)
 
-```C runnable
+Une fois Visual Studio installé, vous pouvez créer **un projet par exercice** !! (Fichiers > Nouveau > Projets...) 
+
+Au départ, vous pouvez toujours commencer par taper (ou copier-coller ;-D) les lignes suivantes :
+```c
+#pragma warning(disable:4996)
 #include <stdio.h>
-
-int main() {
-	int a = 55, b = 66, c = 77;
-
-	printf("L'adresse de a avant incrémentation : %p\n", &a);
-	printf("L'adresse de b avant incrémentation : %p\n", &b);
-	printf("L'adresse de c avant incrémentation : %p\n", &c);
-
-	a++;
-	b++;
-	c++;
-
-	printf("\nL'adresse de a après incrémentation :  %p\n", &a);
-	printf("L'adresse de b après incrémentation :  %p\n", &b);
-	printf("L'adresse de c après incrémentation :  %p\n", &c);
-
-	return 0;
-}
-
-```
-On peut remarquer que l'adresse des variables `a`, `b` et `c` est la même avant et après la modification. L'adresse de la variable est bien indépendante de la valeur de la variable. 
-
-?[Que constatez-vous lors de l'exécution]
-- [ ] L'adresse des variables a, b et c est différente avant et après la modification.
-- [x] L'adresse des variables a, b et c est la même avant et après la modification.
-- [x] L'adresse d'une variable est indépante de la valeur de la variable.
-- [ ] L'adresse d'une variable dépend de la valeur de la variable.
-
-
-## Exemple 2
-
-Avant de compléter le code, exécuter le une fois pour constater les valeurs de `pta` et `ptb`. Une fois compléter exécuter le code plusieurs fois.
-
-```C runnable
-#include <stdio.h>
-
-int main() {
-    int a;
-    int b;
-    int *pta;
-    int *ptb;    
-    
-    //Partie à compléter pour que :
-    // - pta pointe vers a
-    // - ptb pointe vers b
-    
-    printf("Adresse de a (direct) %p\n",&a);
-    printf("Adresse de a %p\n\n",pta);
-    printf("Adresse de b (direct) %p\n",&b);
-    printf("Adresse de b %p\n",ptb);
-    
-    return 0;
-}
-
-```
-
-?[Que constatez-vous lors des différentes exécutions]
-- [ ] Rien
-- [x] Les adresses changent lors de chaque exécution
-- [ ] Les adresses sont toujours les mêmes
-- [x] Si pta et/ou ptb n'ont pas été affecté leur valeur n'ont pas de sens
-
-## Exemple 3
-
-```C runnable
-#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-	int a = 55;
-	int *pa = &a;
 
-	printf("L'adresse de a est %p\n", &a);
-	printf("Le contenu de a est %d\n", a);
-	printf("Le contenu de pa  est %p\n", pa);
-	printf("L'adresse de pa  est %p\n", &pa);
-
-	return 0;
+    return 0;
 }
 ```
 
-?[Que constatez-vous lors de l'exécution]
-- [x] *pa == a car pa = &a
-- [ ] pa == a car pa = &a
-- [ ] *pa == &a car pa = a
-- [ ] *pa == &a car *pa = &a
+Ensuite, vous pouvez écrire votre code en ligne 7 juste avant l'instruction `return 0;`
 
-## Exemple 4
+Le bouton "Exécuter sans débogage" (triangle "play" vert) permet de recompiler et exécuter tout votre projet.
 
-Cependant il faut être attentif au contexte dans lequel s'utilise une variable. Dans l'exemple qui suit, nous avons `f()` qui est appelé une fois depuis le `main()` et une autre depuis `g()`. Chaque appel de `f()` produit un contexte différent pour son paramètre `p`.
-
-```C runnable
-#include <stdio.h>
-
-void f(int p) {
-	printf("L'adresse de p dans f() est %p\n", &p);
-	printf("Le contenu de p dans f() est %d\n",p);
-}
-
-void g(int a) {
-	printf("L'adresse de a dans g() est %p\n", &a);
-	printf("Le contenu de a dans g() est %d\n",a);
-	f(a);
-}
-
-int main() {
-	int a = 55;
-
-	printf("L'adresse de a dans main() est %p\n", &a);
-	printf("Le contenu de a dans main() est %d\n", a);
-	f(a);
-	g(a);
-
-	return 0;
-}
-```
-
-?[Que constatez-vous lors de l'exécution]
-- [ ] La variable a dans g() est strictement la même que celle dans le main().
-- [ ] La varialbe a dans g() n'a aucun lien avec la variable a dans le main().
-- [x] La variable a dans g() est une copie de la valeur de la variable a dans le main().
-- [ ] La variable p dans f() n'a aucun lien avec la variable a dans le main().
-- [x] La variable p dans f() est une copie de la valeur de la variable a dans le main().
-- [x] Les variables a dans le main(), a dans g(p) et p dans f() sont toutes dans des contextes différents.
-# Quizz (facultatif)
-
-Afin de tester votre compréhension de la matière, complèter [ce questionnaire](https://goo.gl/forms/C3WkjJmB18vOww2C3)
+À toutes fins utiles, voici à nouveau le document contenant des infos utiles sur l'utilisation du debogueur de Visual Studio&nbsp;: https://ecolevirtuelle.provincedeliege.be/ctrl/ctrl_gestion.openDocument?p_idNode=1177599
