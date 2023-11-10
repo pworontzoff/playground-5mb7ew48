@@ -2,7 +2,7 @@
 
 Les exercices de cette séance portent :
 + D'abord sur les vecteurs manipulés par des fonctions. Nous utiliserons une notation particulière du C qui permet de travailler sur les vecteurs (les consulter, mais surtout les modifier) dans des fonctions facilement. Cela permet de cacher le fait que des vecteurs passés en paramètres de fonctions ne sont pas des copies de ces vecteurs. Ce qui est passé en paramètre de la fonction est en fait un pointeur vers la première cellule du vecteur&nbsp;;
-+ Ensuite, on revient sur la notion de pointeurs qui reste essentielle en C.
++ Ensuite, on revient sur la notion de pointeurs qui reste essentielle en C&nbsp;;
 + Enfin, facultativement, 2 énoncés permettent d'utiliser explicitement les pointeurs pour travailler sur les vecteurs (les consulter, mais surtout les modifier) dans des fonctions.
 
 Pour réaliser ces exercices, vous veillerez également à employer les techniques vues lors des précédentes séances.
