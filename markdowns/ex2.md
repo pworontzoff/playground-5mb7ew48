@@ -10,7 +10,11 @@ entier `n` dont l’utilisateur choisit la valeur (<= 100). L’entier `n` donna
 
 ! On devra prendre soin de définir 100 à l’aide d’un #define.
 
-On devra utiliser une fonction dont le prototype est le suivant :
 
+On devra utiliser une fonction dont le prototype est le suivant : 
+
+```C
 int find_nz(int va[N], int n); //le vecteur va et sa taille utile n (retourne -1 si tous les éléments à 0, sinon l'indice de la dernière val non nulle.
+```
+
 NB : Lors de l'appel à la fonction, on doit alors fournir simplement le nom du vecteur (sans crochets) et sa taille. On utilise ensuite ce vecteur dans la fonction avec la syntaxe habituelle (les crochets).
