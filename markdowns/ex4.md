@@ -10,7 +10,7 @@
 
 NB: Chaque point ci-dessus est à faire au moyen d'un appel de fonction !
 
-2) Chatgpt a-t-il donné une solution fonctionnelles ?
+2) Chatgpt a-t-il donné une solution fonctionnelle ?
 
 1) Chatgpt a-t-il respecté les consignes ?
 
