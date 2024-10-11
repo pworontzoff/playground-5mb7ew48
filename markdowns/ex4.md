@@ -16,4 +16,4 @@ NB: Chaque point ci-dessus est à faire au moyen d'un appel de fonction !
 
 1) La solution de chatgpt est-elle meilleure qu'une solution qui tient compte des consignes (et pourquoi) ?
 
-1) Modifier le code de chatgpt pour obtenir une solution fonctionnelle tenant compte des consignes.
+1) Modifier (avec ou sans chatgpt) le code de chatgpt pour obtenir une solution fonctionnelle tenant compte des consignes.
