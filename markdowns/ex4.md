@@ -1,4 +1,6 @@
-# Exercice 4 (vecteurs) : COUPER-COLLER-MÉLANGER UN VECTEUR
+# Exercice 4 (vecteurs) : COUPER-COLLER-MÉLANGER UN VECTEUR AVEC CHATGPT
+
+1) Donner cet énoncé à chatgpt afin de lui faire produire la solution
 
 + Déclarer deux vecteurs `v[50]` et `vM[50]` (`vM` pour « Vecteur Mélangé ») et demander `n` (<=50) ainsi que `d` (>=0, un nombre entier positif de départ) et remplir les `n` cases de `v` et `vM` de la façon suivante :
   + Remplir `v` avec les valeurs d+0,d+1, ..., d+n-1 
@@ -7,3 +9,11 @@
   + Afficher `vM`
 
 NB: Chaque point ci-dessus est à faire au moyen d'un appel de fonction !
+
+1) Chatgpt a-t-il donné une solution fonctionnelles ?
+
+1) Chatgpt a-t-il respecté les consignes ?
+
+1) La solution de chatgpt est-elle meilleure qu'une solution qui tient compte des consignes (et pourquoi) ?
+
+1) Modifier le code de chatgpt pour tenir compte des consignes.
