@@ -1,6 +1,6 @@
 # Exercice 8 (vecteurs et pointeurs explicites) (facultatif)
 
-Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès (lecture) sur les vecteurs de structures (via pointeurs). La solution à l'exercice 6 précédent dans cette série (https://tech.io/playgrounds/55695/5---les-vecteurs-pointeurs/exercice-6-pointeurs) nous donne déjà une aide précieuse sur les syntaxes à utiliser pour l'accès aux champs de structures par pointzeurs.
+Cet exercice porte sur les manipulations de déclaration, d'initialisation et d'accès (lecture) sur les vecteurs de structures (via pointeurs). La solution à l'exercice 6 précédent dans cette série (https://tech.io/playgrounds/55695/5---les-vecteurs-pointeurs/exercice-6-pointeurs) nous donne déjà une aide précieuse sur les syntaxes à utiliser pour l'accès aux champs de structures par pointeurs.
 
 Cet exercice se base sur des coordonnées terrestres (latitudes et longitudes) données en degrés décimaux (ex: 50.610991) et les calculs de distances peuvent se résoudre en utilisant le point 1 de la formule donnée dans l'exercice 4 de la série "3 - Les alternatives et les structures" : https://tech.io/playgrounds/55382/3---les-alternatives-et-les-structures/exercice-4-sur-9 et en utilisant également les formules données dans l'exercice 6 de la série "2 - Les variables" : https://tech.io/playgrounds/55269/2---les-variables/exercice-6
 
