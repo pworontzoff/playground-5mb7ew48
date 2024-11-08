@@ -16,4 +16,4 @@ On devra utiliser une fonction dont le prototype est le suivant :
 int find_nz(int va[N], int n); //params: le vecteur va et sa taille utile n (retourne -1 si tous les éléments à 0, sinon l'indice de la 1ere val non nulle).
 ```
 
-NB : Lors de l'appel à la fonction, on doit alors fournir simplement le nom du vecteur (sans crochets) et sa taille. On utilise ensuite ce vecteur dans la fonction avec la syntaxe habituelle (les crochets).
+NB : Lors de l'appel à la fonction, on doit alors fournir simplement le nom du vecteur (**sans crochets !**) et sa taille. On utilise ensuite ce vecteur dans la fonction avec la syntaxe habituelle (les crochets).
