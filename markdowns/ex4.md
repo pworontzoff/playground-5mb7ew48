@@ -1,6 +1,14 @@
 # Exercice 4 (vecteurs) : COUPER-COLLER-MÉLANGER UN VECTEUR AVEC CHATGPT
 
-1) Donner cet énoncé à chatgpt afin de lui faire produire la solution
+1) Donner l'énoncé ci-dessous à chatgpt afin de lui faire produire la solution
+
+1) Chatgpt a-t-il donné une solution fonctionnelle ?
+
+1) Chatgpt a-t-il respecté les consignes ?
+
+1) La solution de chatgpt est-elle meilleure qu'une solution qui tient compte des consignes (et pourquoi) ?
+
+1) Modifier (avec ou sans chatgpt) le code de chatgpt pour obtenir une solution fonctionnelle tenant compte des consignes.
 
 <hr>
 
@@ -13,11 +21,3 @@
 NB: Chaque point ci-dessus est à faire au moyen d'un appel de fonction !
 
 <hr>
-
-1) Chatgpt a-t-il donné une solution fonctionnelle ?
-
-1) Chatgpt a-t-il respecté les consignes ?
-
-1) La solution de chatgpt est-elle meilleure qu'une solution qui tient compte des consignes (et pourquoi) ?
-
-1) Modifier (avec ou sans chatgpt) le code de chatgpt pour obtenir une solution fonctionnelle tenant compte des consignes.
