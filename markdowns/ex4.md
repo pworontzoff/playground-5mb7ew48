@@ -2,6 +2,8 @@
 
 1) Donner cet énoncé à chatgpt afin de lui faire produire la solution
 
+<hr>
+
 + Déclarer deux vecteurs `v[50]` et `vM[50]` (`vM` pour « Vecteur Mélangé ») et demander `n` (<=50) ainsi que `d` (>=0, un nombre entier positif de départ) et remplir les `n` cases de `v` et `vM` de la façon suivante :
   + Remplir `v` avec les valeurs d+0,d+1, ..., d+n-1 
   + Afficher `v`
@@ -10,7 +12,9 @@
 
 NB: Chaque point ci-dessus est à faire au moyen d'un appel de fonction !
 
-2) Chatgpt a-t-il donné une solution fonctionnelle ?
+<hr>
+
+1) Chatgpt a-t-il donné une solution fonctionnelle ?
 
 1) Chatgpt a-t-il respecté les consignes ?
 
